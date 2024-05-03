@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name "CM4IO")(type "KiCad")(uri "${KIPRJMOD}/libraries/CM4IO/CM4IO.kicad_sym")(options "")(descr ""))
+  (version 7)
+  (lib (name "PiCubed")(type "KiCad")(uri "${KIPRJMOD}/Libraries/PiCubed.kicad_sym")(options "")(descr ""))
 )
