@@ -1,1247 +1,3313 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid d20698b0-9b5e-4804-a440-df310cd83fac)
-
-  (paper "A4")
-
-  (title_block
-    (title "PiCubed Mainboard")
-    (date "2024-02-27")
-    (rev "01")
-    (company "RExLab Carnegie Mellon University")
-    (comment 1 "Neil Khera")
-  )
-
-  (lib_symbols
-    (symbol "Connector_Generic:Conn_01x04" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Conn_01x04" (at 0 -7.62 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "connector" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Conn_01x04_1_1"
-        (rectangle (start -1.27 -4.953) (end 0 -5.207)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 -2.413) (end 0 -2.667)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 0.127) (end 0 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 2.667) (end 0 2.413)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 3.81) (end 1.27 -6.35)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (pin passive line (at -5.08 2.54 0) (length 3.81)
-          (name "Pin_1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 0 0) (length 3.81)
-          (name "Pin_2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -2.54 0) (length 3.81)
-          (name "Pin_3" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -5.08 0) (length 3.81)
-          (name "Pin_4" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Connector_Generic:Conn_01x06" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 7.62 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Conn_01x06" (at 0 -10.16 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "connector" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Conn_01x06_1_1"
-        (rectangle (start -1.27 -7.493) (end 0 -7.747)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 -4.953) (end 0 -5.207)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 -2.413) (end 0 -2.667)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 0.127) (end 0 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 2.667) (end 0 2.413)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 5.207) (end 0 4.953)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 6.35) (end 1.27 -8.89)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (pin passive line (at -5.08 5.08 0) (length 3.81)
-          (name "Pin_1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 2.54 0) (length 3.81)
-          (name "Pin_2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 0 0) (length 3.81)
-          (name "Pin_3" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -2.54 0) (length 3.81)
-          (name "Pin_4" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -5.08 0) (length 3.81)
-          (name "Pin_5" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -7.62 0) (length 3.81)
-          (name "Pin_6" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Mechanical:MountingHole_Pad" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "H" (at 0 6.35 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "MountingHole_Pad" (at 0 4.445 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "mounting hole" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Mounting Hole with connection" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "MountingHole*Pad*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "MountingHole_Pad_0_1"
-        (circle (center 0 1.27) (radius 1.27)
-          (stroke (width 1.27) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "MountingHole_Pad_1_1"
-        (pin input line (at 0 -2.54 90) (length 2.54)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "mainboard:M03POLAR_LOCK" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "JP" (at -2.54 5.842 0)
-        (effects (font (size 1.4986 1.4986)) (justify left bottom))
-      )
-      (property "Value" "M03POLAR_LOCK" (at -2.54 -7.62 0)
-        (effects (font (size 1.4986 1.4986)) (justify left bottom))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_locked" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (symbol "M03POLAR_LOCK_1_0"
-        (polyline
-          (pts
-            (xy -2.54 5.08)
-            (xy -2.54 -5.08)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 5.08)
-            (xy 3.81 5.08)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 -2.54)
-            (xy 2.54 -2.54)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 0)
-            (xy 2.54 0)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 2.54)
-            (xy 2.54 2.54)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 3.81 -5.08)
-            (xy -2.54 -5.08)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 3.81 -5.08)
-            (xy 3.81 5.08)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (pin passive line (at 7.62 -2.54 180) (length 5.08)
-          (name "1" (effects (font (size 0 0))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 7.62 0 180) (length 5.08)
-          (name "2" (effects (font (size 0 0))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 7.62 2.54 180) (length 5.08)
-          (name "3" (effects (font (size 0 0))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-  (junction (at 101.854 141.224) (diameter 0) (color 0 0 0 0)
-    (uuid 2980ee1d-5c70-4a3a-bf41-3ca78a00d7b9)
-  )
-  (junction (at 101.854 145.034) (diameter 0) (color 0 0 0 0)
-    (uuid 874f3592-3d72-468b-9ad8-24db4fdd07ac)
-  )
-  (junction (at 101.854 137.414) (diameter 0) (color 0 0 0 0)
-    (uuid ab15e1ed-2010-43b9-91a3-7579fdba7173)
-  )
-
-  (no_connect (at 100.838 73.787) (uuid 8ef19d9c-3328-4c17-9540-53a222467137))
-  (no_connect (at 75.565 73.787) (uuid 9326aeba-6cf2-4cbf-847f-a37984798b92))
-  (no_connect (at 124.841 73.787) (uuid 9ab777f7-7bfe-4be6-afa5-1fa5ec898186))
-  (no_connect (at 100.838 95.885) (uuid b6203c4b-cdcb-475d-998a-ccb821936c05))
-  (no_connect (at 124.841 95.885) (uuid e20b7369-266b-4d46-9cd0-c401a6fd42d6))
-  (no_connect (at 75.565 95.885) (uuid e2991f14-11e0-4cef-b71e-feaf9ad8fcb3))
-
-  (wire (pts (xy 187.96 78.613) (xy 191.008 78.613))
-    (stroke (width 0) (type default))
-    (uuid 023f6f83-47ba-4455-8806-47dca6f45858)
-  )
-  (wire (pts (xy 100.838 76.327) (xy 103.378 76.327))
-    (stroke (width 0) (type default))
-    (uuid 0817ca9c-c7c4-4f76-bff8-b27f2777ff48)
-  )
-  (wire (pts (xy 78.105 78.867) (xy 75.565 78.867))
-    (stroke (width 0) (type default))
-    (uuid 0a40ba5e-78f8-493a-a5cb-99b919644f63)
-  )
-  (wire (pts (xy 127.381 102.235) (xy 127.381 100.965))
-    (stroke (width 0) (type default))
-    (uuid 0dd7fb4e-b5b1-46ca-bfea-006b8527889e)
-  )
-  (wire (pts (xy 127.381 100.965) (xy 124.841 100.965))
-    (stroke (width 0) (type default))
-    (uuid 14ee8583-9367-4a4d-a3e1-c46994af77a4)
-  )
-  (wire (pts (xy 103.378 80.137) (xy 103.378 78.867))
-    (stroke (width 0) (type default))
-    (uuid 188958df-6661-4573-aa0c-43ff93b1d9f8)
-  )
-  (wire (pts (xy 223.901 70.993) (xy 226.949 70.993))
-    (stroke (width 0) (type default))
-    (uuid 1e46b2b6-ea54-4395-b1d6-d1fd95494c84)
-  )
-  (wire (pts (xy 100.838 98.425) (xy 103.378 98.425))
-    (stroke (width 0) (type default))
-    (uuid 21b0163c-cd77-4bb9-bfa8-92a766193c04)
-  )
-  (wire (pts (xy 191.008 91.948) (xy 187.96 91.948))
-    (stroke (width 0) (type default))
-    (uuid 298a3480-32b2-4667-847b-77f05b03abb9)
-  )
-  (wire (pts (xy 223.901 91.948) (xy 226.949 91.948))
-    (stroke (width 0) (type default))
-    (uuid 2e199b68-eb63-48a9-82c6-33b3d4b7b84d)
-  )
-  (wire (pts (xy 78.105 80.137) (xy 78.105 78.867))
-    (stroke (width 0) (type default))
-    (uuid 306ca683-3887-4351-908d-b66707836688)
-  )
-  (wire (pts (xy 223.901 94.488) (xy 226.949 94.488))
-    (stroke (width 0) (type default))
-    (uuid 3e91c6d0-1bc2-4844-9e37-c2c2333ca02b)
-  )
-  (wire (pts (xy 124.841 98.425) (xy 127.381 98.425))
-    (stroke (width 0) (type default))
-    (uuid 3efa351d-d081-4b95-84a3-1435a90b44d6)
-  )
-  (wire (pts (xy 127.381 80.137) (xy 127.381 78.867))
-    (stroke (width 0) (type default))
-    (uuid 4415ad92-3c94-402b-85a8-5412c26f415f)
-  )
-  (wire (pts (xy 187.96 81.153) (xy 191.008 81.153))
-    (stroke (width 0) (type default))
-    (uuid 4c64ba36-3103-49bc-99af-66b660113083)
-  )
-  (wire (pts (xy 175.387 70.993) (xy 175.387 81.153))
-    (stroke (width 0) (type default))
-    (uuid 5184bf5f-218e-4601-b274-f58725025023)
-  )
-  (wire (pts (xy 103.378 102.235) (xy 103.378 100.965))
-    (stroke (width 0) (type default))
-    (uuid 657500a8-4b80-44ac-8560-087996312682)
-  )
-  (wire (pts (xy 75.565 98.425) (xy 78.105 98.425))
-    (stroke (width 0) (type default))
-    (uuid 83b9416a-1e0c-405a-87b6-5ad8810d10bf)
-  )
-  (wire (pts (xy 103.378 100.965) (xy 100.838 100.965))
-    (stroke (width 0) (type default))
-    (uuid 91cb2596-a6b6-46fd-989d-343f9e9bc6c7)
-  )
-  (wire (pts (xy 78.105 102.235) (xy 78.105 100.965))
-    (stroke (width 0) (type default))
-    (uuid 9bf19c50-b05b-4095-a14f-d84dbd6c72e0)
-  )
-  (wire (pts (xy 187.96 76.073) (xy 191.008 76.073))
-    (stroke (width 0) (type default))
-    (uuid 9d6bf55d-89a6-4d9a-9720-a5f3ddb6ee5e)
-  )
-  (wire (pts (xy 124.841 76.327) (xy 127.381 76.327))
-    (stroke (width 0) (type default))
-    (uuid a1f4e306-af4f-4e60-81ba-77da0fe2e5e9)
-  )
-  (wire (pts (xy 191.008 68.453) (xy 175.387 68.453))
-    (stroke (width 0) (type default))
-    (uuid a22db77d-19e0-4a44-b6bb-c166d69092a8)
-  )
-  (wire (pts (xy 75.565 76.327) (xy 78.105 76.327))
-    (stroke (width 0) (type default))
-    (uuid ba5174c9-5e17-4edb-8d42-ecc0e9e30f02)
-  )
-  (wire (pts (xy 101.854 137.414) (xy 101.854 141.224))
-    (stroke (width 0) (type default))
-    (uuid c28d592b-2d17-4c7e-bd45-dee3c5630ae6)
-  )
-  (wire (pts (xy 191.008 70.993) (xy 175.387 70.993))
-    (stroke (width 0) (type default))
-    (uuid cbb914b7-aca1-4794-bc60-1f4165695be7)
-  )
-  (wire (pts (xy 187.96 73.533) (xy 191.008 73.533))
-    (stroke (width 0) (type default))
-    (uuid cd75242b-a918-41a2-a2dd-5b7ff88f09b7)
-  )
-  (wire (pts (xy 101.854 133.604) (xy 101.854 137.414))
-    (stroke (width 0) (type default))
-    (uuid cda81187-ab8e-4ac9-b601-6f10d6d4fe33)
-  )
-  (wire (pts (xy 175.387 67.183) (xy 175.387 68.453))
-    (stroke (width 0) (type default))
-    (uuid d58bb9d3-8225-4494-9fe4-e1cf763e9c7b)
-  )
-  (wire (pts (xy 103.378 78.867) (xy 100.838 78.867))
-    (stroke (width 0) (type default))
-    (uuid dc91f05c-bbb8-42a3-abb0-90cc951bb2ce)
-  )
-  (wire (pts (xy 101.854 145.034) (xy 101.854 147.574))
-    (stroke (width 0) (type default))
-    (uuid de6de5bb-7bd9-4339-b003-5dbc4e101412)
-  )
-  (wire (pts (xy 78.105 100.965) (xy 75.565 100.965))
-    (stroke (width 0) (type default))
-    (uuid df4046ff-5f9a-45a9-9756-c1d62f1309de)
-  )
-  (wire (pts (xy 223.901 68.453) (xy 226.949 68.453))
-    (stroke (width 0) (type default))
-    (uuid f10dc551-5393-4991-accc-8abb96bea887)
-  )
-  (wire (pts (xy 101.854 141.224) (xy 101.854 145.034))
-    (stroke (width 0) (type default))
-    (uuid f964e492-9f2b-4c99-8a37-7b0b7f2b3ed2)
-  )
-  (wire (pts (xy 127.381 78.867) (xy 124.841 78.867))
-    (stroke (width 0) (type default))
-    (uuid fc06256c-4df2-4625-83d8-661ac29a6ae2)
-  )
-
-  (text "Solar Panel Connectors" (at 64.516 61.468 0)
-    (effects (font (size 3.81 3.81)) (justify left bottom))
-    (uuid 83046641-53d3-4f82-9f0c-0957a8c19919)
-  )
-  (text "Mounting Holes" (at 86.614 128.524 0)
-    (effects (font (size 2.159 2.159)) (justify left bottom))
-    (uuid 8a0d3deb-0502-490c-bc57-fbd7771f9911)
-  )
-
-  (hierarchical_label "SPI0_CE1" (shape input) (at 187.96 81.153 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 02aac0c2-6f04-4ffd-8d2c-afc7bc675337)
-  )
-  (hierarchical_label "VSOLAR" (shape output) (at 78.105 76.327 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 15e8bf31-13eb-4b5e-b301-75903a23df16)
-  )
-  (hierarchical_label "SDA" (shape input) (at 223.901 70.993 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 3b018ed5-8b9d-4b68-8e75-b3b5da6deab3)
-  )
-  (hierarchical_label "SPI0_MISO" (shape output) (at 187.96 76.073 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 48934615-be22-4706-87f0-def54dc823ad)
-  )
-  (hierarchical_label "VSOLAR" (shape output) (at 127.381 76.327 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 537c6ff9-9bae-4075-b1e7-76833dbb1f4b)
-  )
-  (hierarchical_label "SPI0_SCLK" (shape input) (at 187.96 78.613 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 60d5e412-92db-4ad5-beed-81840bdfbbe5)
-  )
-  (hierarchical_label "TX3" (shape input) (at 223.901 94.488 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 6a3a7414-98fc-4437-8e76-d3e504fd46cf)
-  )
-  (hierarchical_label "SPI0_MOSI" (shape input) (at 187.96 73.533 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 8752c02d-e61d-4b3b-ab09-75bdf698d737)
-  )
-  (hierarchical_label "VSOLAR" (shape output) (at 78.105 98.425 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid a16da81f-8c08-4125-b84b-b8b392fd1f4e)
-  )
-  (hierarchical_label "+3.3V" (shape input) (at 175.387 67.183 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid bb0e4044-ea22-4c12-b522-09254907d0ba)
-  )
-  (hierarchical_label "+3.3V" (shape input) (at 187.96 91.948 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid c1e04feb-9be6-4c0f-9746-4542b4b40370)
-  )
-  (hierarchical_label "VSOLAR" (shape output) (at 127.381 98.425 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid c362313b-033a-48c1-bc48-945fcdc94f72)
-  )
-  (hierarchical_label "RX3" (shape output) (at 223.901 91.948 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid c44fb1a7-1979-4dc9-aac2-f4067c69bc41)
-  )
-  (hierarchical_label "SCL" (shape input) (at 223.901 68.453 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid df974a24-7dbb-4b34-98bb-9ce4f77e62a4)
-  )
-  (hierarchical_label "VSOLAR" (shape output) (at 103.378 98.425 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid e56c0032-2136-4148-a0be-03c22e647506)
-  )
-  (hierarchical_label "VSOLAR" (shape output) (at 103.378 76.327 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid ebaddaac-7558-4215-8aa5-3d36f0011288)
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x06") (at 196.088 73.533 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0d731245-52c2-4f7d-8aca-921155ee16cb)
-    (property "Reference" "J14" (at 198.755 73.533 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Conn_01x06" (at 198.755 76.073 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 196.088 73.533 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 196.088 73.533 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 15fe545e-8f2c-4a51-90ab-0124a147c6fb))
-    (pin "2" (uuid f8aa6172-b15d-49a6-a68a-2ee4fb56c194))
-    (pin "4" (uuid b3226167-d315-48dc-809d-aeee78f50aa8))
-    (pin "5" (uuid b2c5c3b4-a70b-4d67-b9fc-dc161735d4aa))
-    (pin "3" (uuid b40798e2-3879-4f81-9d3a-6d70a21237c7))
-    (pin "6" (uuid b70ffd09-53d0-439c-8177-f6461ab1454a))
-    (instances
-      (project "PiCubed"
-        (path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
-          (reference "J14") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 103.378 80.137 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 14f32354-05c9-4731-b064-b5be353ca5df)
-    (property "Reference" "#PWR0124" (at 103.378 86.487 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 103.378 83.82 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 103.378 80.137 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 103.378 80.137 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d67dc8ea-c376-40ee-b7d4-0fddc8257108))
-    (instances
-      (project "PiCubed"
-        (path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
-          (reference "#PWR0124") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 127.381 80.137 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 380cbb9b-3587-4ac2-93f1-3f92d19a682c)
-    (property "Reference" "#PWR0126" (at 127.381 86.487 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 127.381 83.82 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 127.381 80.137 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 127.381 80.137 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4458c1e0-fb13-452a-96bc-dd34bf2c9025))
-    (instances
-      (project "PiCubed"
-        (path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
-          (reference "#PWR0126") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "mainboard:M03POLAR_LOCK") (at 67.945 98.425 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 3a773895-ba1b-4339-bfb0-54c725b98cf8)
-    (property "Reference" "JP2" (at 65.405 92.583 0)
-      (effects (font (size 1.4986 1.4986)) (justify left bottom))
-    )
-    (property "Value" "Conn_01x03" (at 65.405 106.045 0)
-      (effects (font (size 1.4986 1.4986)) (justify left bottom) hide)
-    )
-    (property "Footprint" "mainboard:MOLEX-1X3_LOCK" (at 67.945 98.425 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.mouser.com/datasheet/2/276/022232037_sd-589157.pdf" (at 67.945 98.425 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DNI" "DNI" (at 67.437 98.425 0)
-      (effects (font (size 1.27 1.27) bold))
-    )
-    (property "Description" "3-pin Vertical Header - 0.1in (2.54mm) Locking - Molex PN: 22-23-2037" (at 67.945 98.425 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Flight" "22-23-2037" (at 65.405 90.043 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer_Name" "Molex" (at 67.945 98.425 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer_Part_Number" "22-23-2037" (at 65.405 90.043 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Proto" "22-23-2037" (at 65.405 90.043 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c0f50ddb-7024-43d7-8f0f-e4a8d3ed99d0))
-    (pin "2" (uuid cd4fa484-8bf4-46d6-a338-163c0c2f980e))
-    (pin "3" (uuid 6e7dcec1-ca87-4fa8-8ab1-df980134c170))
-    (instances
-      (project "PiCubed"
-        (path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
-          (reference "JP2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 175.387 81.153 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 46c918f5-ef97-48d5-9245-d2dba444dc3a)
-    (property "Reference" "#PWR0133" (at 175.387 87.503 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 175.387 84.836 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 175.387 81.153 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 175.387 81.153 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c79a78ed-abd0-4e2f-a313-622e84902161))
-    (instances
-      (project "PiCubed"
-        (path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
-          (reference "#PWR0133") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 99.314 137.414 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 74f85282-a2a7-4bfd-acf0-b8633a036429)
-    (property "Reference" "H2" (at 92.964 137.414 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "MountingHole_Pad" (at 99.2378 133.7056 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" (at 99.314 137.414 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 99.314 137.414 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DNI" "DNI" (at 99.314 137.414 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e864bacb-bfd1-4e59-b396-1d7e7601f7dc))
-    (instances
-      (project "PiCubed"
-        (path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
-          (reference "H2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 78.105 80.137 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 76adb2ae-8f53-41af-8ccf-f7017fa663b1)
-    (property "Reference" "#PWR0122" (at 78.105 86.487 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 78.105 83.82 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 78.105 80.137 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 78.105 80.137 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8a4a931c-3c70-47ff-b565-8193562f8dd7))
-    (instances
-      (project "PiCubed"
-        (path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
-          (reference "#PWR0122") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "mainboard:M03POLAR_LOCK") (at 93.218 98.425 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 7a0f2456-4926-4381-ae58-b93ad68b7ea8)
-    (property "Reference" "JP4" (at 90.678 92.583 0)
-      (effects (font (size 1.4986 1.4986)) (justify left bottom))
-    )
-    (property "Value" "Conn_01x03" (at 90.678 106.045 0)
-      (effects (font (size 1.4986 1.4986)) (justify left bottom) hide)
-    )
-    (property "Footprint" "mainboard:MOLEX-1X3_LOCK" (at 93.218 98.425 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.mouser.com/datasheet/2/276/022232037_sd-589157.pdf" (at 93.218 98.425 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DNI" "DNI" (at 92.71 98.425 0)
-      (effects (font (size 1.27 1.27) bold))
-    )
-    (property "Description" "3-pin Vertical Header - 0.1in (2.54mm) Locking - Molex PN: 22-23-2037" (at 93.218 98.425 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Flight" "22-23-2037" (at 90.678 90.043 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer_Name" "Molex" (at 93.218 98.425 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer_Part_Number" "22-23-2037" (at 90.678 90.043 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Proto" "22-23-2037" (at 90.678 90.043 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f8307c7c-74c2-4594-89fb-d464091ee8e3))
-    (pin "2" (uuid 90112b27-5f76-4524-8801-25d11e197451))
-    (pin "3" (uuid 182b66ed-21fe-4085-8ad7-dbbe39503d99))
-    (instances
-      (project "PiCubed"
-        (path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
-          (reference "JP4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x04") (at 232.029 70.993 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 84db51cb-4212-4651-b9bd-e35ef5e4ce13)
-    (property "Reference" "J15" (at 234.569 70.993 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Conn_01x04" (at 234.569 73.533 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 232.029 70.993 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 232.029 70.993 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "4" (uuid 572886f3-09b5-41f1-b62a-2cf812420366))
-    (pin "2" (uuid ae1bf447-1673-4b98-b854-8964017daec6))
-    (pin "1" (uuid 3c2083fa-a563-439d-81b3-38b01826b90a))
-    (pin "3" (uuid 8398abac-2d89-49c0-9408-5b40ffc3c78b))
-    (instances
-      (project "PiCubed"
-        (path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
-          (reference "J15") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 127.381 102.235 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 93c8f230-46c0-4bc7-ab98-6b3f6fa082b2)
-    (property "Reference" "#PWR0127" (at 127.381 108.585 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 127.381 105.918 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 127.381 102.235 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 127.381 102.235 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b50dc1d5-7fce-4c75-bd4a-a3de7948f70f))
-    (instances
-      (project "PiCubed"
-        (path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
-          (reference "#PWR0127") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 103.378 102.235 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 977ca20a-9765-48c5-9e00-218f71fc2eb8)
-    (property "Reference" "#PWR0125" (at 103.378 108.585 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 103.378 105.918 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 103.378 102.235 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 103.378 102.235 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 63d21cc3-5943-4db8-9bc9-3ed632985915))
-    (instances
-      (project "PiCubed"
-        (path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
-          (reference "#PWR0125") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x06") (at 196.088 97.028 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a5fdea62-86a4-4090-8758-1deb6aa60525)
-    (property "Reference" "J16" (at 198.755 97.028 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Conn_01x06" (at 198.755 99.568 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 196.088 97.028 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 196.088 97.028 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1fcd1223-5d08-4774-a33b-f32f0b09c1d6))
-    (pin "2" (uuid 6e3b9fb7-1b29-4533-b8ac-9a1246f61fd5))
-    (pin "4" (uuid b2d85c92-8214-499d-9268-88eb5961c153))
-    (pin "5" (uuid cc70ada1-c352-4bc9-a76f-103cfd4b2101))
-    (pin "3" (uuid 845cb893-e57d-42bf-aa5d-c82a5d197bf9))
-    (pin "6" (uuid ed58231d-0cd2-4d12-b46e-d65050b7fc61))
-    (instances
-      (project "PiCubed"
-        (path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
-          (reference "J16") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 99.314 145.034 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid b089cdf8-8b41-460d-9bbb-792a55175ad9)
-    (property "Reference" "H4" (at 92.964 145.034 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "MountingHole_Pad" (at 99.2378 141.3256 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" (at 99.314 145.034 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 99.314 145.034 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DNI" "DNI" (at 99.314 145.034 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a714f14a-740c-48d5-b277-8ab5bc207592))
-    (instances
-      (project "PiCubed"
-        (path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
-          (reference "H4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "mainboard:M03POLAR_LOCK") (at 93.218 76.327 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid b8694180-3f5e-4d10-a86c-8ae21463cbe9)
-    (property "Reference" "JP3" (at 90.678 70.485 0)
-      (effects (font (size 1.4986 1.4986)) (justify left bottom))
-    )
-    (property "Value" "Conn_01x03" (at 90.678 83.947 0)
-      (effects (font (size 1.4986 1.4986)) (justify left bottom) hide)
-    )
-    (property "Footprint" "mainboard:MOLEX-1X3_LOCK" (at 93.218 76.327 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.mouser.com/datasheet/2/276/022232037_sd-589157.pdf" (at 93.218 76.327 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DNI" "DNI" (at 92.71 76.327 0)
-      (effects (font (size 1.27 1.27) bold))
-    )
-    (property "Description" "3-pin Vertical Header - 0.1in (2.54mm) Locking - Molex PN: 22-23-2037" (at 93.218 76.327 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Flight" "22-23-2037" (at 90.678 67.945 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer_Name" "Molex" (at 93.218 76.327 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer_Part_Number" "22-23-2037" (at 90.678 67.945 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Proto" "22-23-2037" (at 90.678 67.945 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a9da4acb-866e-43f9-b8ba-e686cdb2a7ff))
-    (pin "3" (uuid e812d986-f27a-4bde-b323-7778829d043d))
-    (pin "2" (uuid 6b5760e6-5d30-4e16-a400-73d748d1709f))
-    (instances
-      (project "PiCubed"
-        (path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
-          (reference "JP3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 99.314 133.604 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid b8924f89-ca87-4e5e-a918-f54e47903018)
-    (property "Reference" "H1" (at 92.964 133.604 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "MountingHole_Pad" (at 99.2378 129.8956 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" (at 99.314 133.604 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 99.314 133.604 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DNI" "DNI" (at 99.314 133.604 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 030739c4-6787-4f18-98bd-ec2f47462163))
-    (instances
-      (project "PiCubed"
-        (path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
-          (reference "H1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "mainboard:M03POLAR_LOCK") (at 67.945 76.327 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid c34b1df3-0f73-4f68-a345-5e90fb19de6f)
-    (property "Reference" "JP1" (at 65.405 70.485 0)
-      (effects (font (size 1.4986 1.4986)) (justify left bottom))
-    )
-    (property "Value" "Conn_01x03" (at 65.405 83.947 0)
-      (effects (font (size 1.4986 1.4986)) (justify left bottom) hide)
-    )
-    (property "Footprint" "mainboard:MOLEX-1X3_LOCK" (at 67.945 76.327 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.mouser.com/datasheet/2/276/022232037_sd-589157.pdf" (at 67.945 76.327 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DNI" "DNI" (at 67.437 76.327 0)
-      (effects (font (size 1.27 1.27) bold))
-    )
-    (property "Description" "3-pin Vertical Header - 0.1in (2.54mm) Locking - Molex PN: 22-23-2037" (at 67.945 76.327 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Flight" "22-23-2037" (at 65.405 67.945 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer_Name" "Molex" (at 67.945 76.327 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer_Part_Number" "22-23-2037" (at 65.405 67.945 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Proto" "22-23-2037" (at 65.405 67.945 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 82321411-35a4-4fb0-bc9f-6d8eb7e81972))
-    (pin "3" (uuid 452f87f9-3c6c-4a80-962d-d9f248e9896e))
-    (pin "2" (uuid eef23b36-b990-4123-ab88-740b8abb4e15))
-    (instances
-      (project "PiCubed"
-        (path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
-          (reference "JP1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 78.105 102.235 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid c50ad0f6-31b1-4d8c-8d95-0898fdef1a25)
-    (property "Reference" "#PWR0123" (at 78.105 108.585 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 78.105 105.918 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 78.105 102.235 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 78.105 102.235 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid bc6eff4e-8c59-41c9-a53e-3e074fe39dfd))
-    (instances
-      (project "PiCubed"
-        (path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
-          (reference "#PWR0123") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 99.314 141.224 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid c5c6accb-fd5c-45c5-8e8a-f04d1751179d)
-    (property "Reference" "H3" (at 92.964 141.224 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "MountingHole_Pad" (at 99.2378 137.5156 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" (at 99.314 141.224 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 99.314 141.224 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DNI" "DNI" (at 99.314 141.224 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2c19538c-c466-4e70-b3a0-ca9dd079251e))
-    (instances
-      (project "PiCubed"
-        (path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
-          (reference "H3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "mainboard:M03POLAR_LOCK") (at 117.221 98.425 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid c7b551f2-d8e2-42a6-940a-e7c73b851d84)
-    (property "Reference" "JP6" (at 114.681 92.583 0)
-      (effects (font (size 1.4986 1.4986)) (justify left bottom))
-    )
-    (property "Value" "Conn_01x03" (at 114.681 106.045 0)
-      (effects (font (size 1.4986 1.4986)) (justify left bottom) hide)
-    )
-    (property "Footprint" "mainboard:MOLEX-1X3_LOCK" (at 117.221 98.425 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.mouser.com/datasheet/2/276/022232037_sd-589157.pdf" (at 117.221 98.425 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DNI" "DNI" (at 116.713 98.425 0)
-      (effects (font (size 1.27 1.27) bold))
-    )
-    (property "Description" "3-pin Vertical Header - 0.1in (2.54mm) Locking - Molex PN: 22-23-2037" (at 117.221 98.425 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Flight" "22-23-2037" (at 114.681 90.043 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer_Name" "Molex" (at 117.221 98.425 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer_Part_Number" "22-23-2037" (at 114.681 90.043 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Proto" "22-23-2037" (at 114.681 90.043 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3e9fc722-32de-4797-8c23-20b6709c2c46))
-    (pin "2" (uuid e8d3df92-fd39-4bd1-829f-c40c8205d07b))
-    (pin "3" (uuid 295b747f-fd4a-477c-8e98-b8460d6dd368))
-    (instances
-      (project "PiCubed"
-        (path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
-          (reference "JP6") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x04") (at 232.029 94.488 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid d3c34eb7-6011-412b-bea3-993ff145e207)
-    (property "Reference" "J17" (at 234.569 94.488 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Conn_01x04" (at 234.569 97.028 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 232.029 94.488 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 232.029 94.488 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "4" (uuid 6bdf6a3e-d296-48f7-97c2-08f9b51853c0))
-    (pin "2" (uuid 88f19504-92f0-47c7-99ab-1b54a4a569c6))
-    (pin "1" (uuid 948aa36b-3d93-41cb-8871-6cf697ee85e8))
-    (pin "3" (uuid a470b9e3-189e-42d3-a40c-a87cb0496c1b))
-    (instances
-      (project "PiCubed"
-        (path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
-          (reference "J17") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "mainboard:M03POLAR_LOCK") (at 117.221 76.327 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid d792dbe0-1a7e-4b75-a71a-423dc8e5184d)
-    (property "Reference" "JP5" (at 114.681 70.485 0)
-      (effects (font (size 1.4986 1.4986)) (justify left bottom))
-    )
-    (property "Value" "Conn_01x03" (at 114.681 83.947 0)
-      (effects (font (size 1.4986 1.4986)) (justify left bottom) hide)
-    )
-    (property "Footprint" "mainboard:MOLEX-1X3_LOCK" (at 117.221 76.327 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.mouser.com/datasheet/2/276/022232037_sd-589157.pdf" (at 117.221 76.327 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DNI" "DNI" (at 116.713 76.327 0)
-      (effects (font (size 1.27 1.27) bold))
-    )
-    (property "Description" "3-pin Vertical Header - 0.1in (2.54mm) Locking - Molex PN: 22-23-2037" (at 117.221 76.327 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Flight" "22-23-2037" (at 114.681 67.945 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer_Name" "Molex" (at 117.221 76.327 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer_Part_Number" "22-23-2037" (at 114.681 67.945 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Proto" "22-23-2037" (at 114.681 67.945 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 73246ad8-d55e-42fb-ab00-32a659b0616d))
-    (pin "3" (uuid 43f21632-c5e7-43a5-a293-daa9d7adb56d))
-    (pin "2" (uuid e8222c1b-8159-4736-8562-dc16e33d134b))
-    (instances
-      (project "PiCubed"
-        (path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
-          (reference "JP5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 101.854 147.574 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid dfd4c7af-6f0a-4e85-8a97-2e2fd146531f)
-    (property "Reference" "#PWR0121" (at 101.854 153.924 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 101.854 151.257 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 101.854 147.574 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 101.854 147.574 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9f417cfb-ecc7-4c36-bef1-303ce4964698))
-    (instances
-      (project "PiCubed"
-        (path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
-          (reference "#PWR0121") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d20698b0-9b5e-4804-a440-df310cd83fac")
+	(paper "A4")
+	(title_block
+		(title "PiCubed Mainboard")
+		(date "2024-02-27")
+		(rev "01")
+		(company "RExLab Carnegie Mellon University")
+		(comment 1 "Neil Khera")
+	)
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic:Conn_01x06"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x06_1_1"
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "mainboard:M03POLAR_LOCK"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -2.54 5.842 0)
+				(effects
+					(font
+						(size 1.4986 1.4986)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "M03POLAR_LOCK"
+				(at -2.54 -7.62 0)
+				(effects
+					(font
+						(size 1.4986 1.4986)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "M03POLAR_LOCK_1_0"
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -5.08) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 101.854 141.224)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2980ee1d-5c70-4a3a-bf41-3ca78a00d7b9")
+	)
+	(junction
+		(at 101.854 145.034)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "874f3592-3d72-468b-9ad8-24db4fdd07ac")
+	)
+	(junction
+		(at 101.854 137.414)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab15e1ed-2010-43b9-91a3-7579fdba7173")
+	)
+	(no_connect
+		(at 100.838 73.787)
+		(uuid "8ef19d9c-3328-4c17-9540-53a222467137")
+	)
+	(no_connect
+		(at 75.565 73.787)
+		(uuid "9326aeba-6cf2-4cbf-847f-a37984798b92")
+	)
+	(no_connect
+		(at 124.841 73.787)
+		(uuid "9ab777f7-7bfe-4be6-afa5-1fa5ec898186")
+	)
+	(no_connect
+		(at 100.838 95.885)
+		(uuid "b6203c4b-cdcb-475d-998a-ccb821936c05")
+	)
+	(no_connect
+		(at 124.841 95.885)
+		(uuid "e20b7369-266b-4d46-9cd0-c401a6fd42d6")
+	)
+	(no_connect
+		(at 75.565 95.885)
+		(uuid "e2991f14-11e0-4cef-b71e-feaf9ad8fcb3")
+	)
+	(wire
+		(pts
+			(xy 187.96 78.613) (xy 191.008 78.613)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "023f6f83-47ba-4455-8806-47dca6f45858")
+	)
+	(wire
+		(pts
+			(xy 100.838 76.327) (xy 103.378 76.327)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0817ca9c-c7c4-4f76-bff8-b27f2777ff48")
+	)
+	(wire
+		(pts
+			(xy 78.105 78.867) (xy 75.565 78.867)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a40ba5e-78f8-493a-a5cb-99b919644f63")
+	)
+	(wire
+		(pts
+			(xy 127.381 102.235) (xy 127.381 100.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dd7fb4e-b5b1-46ca-bfea-006b8527889e")
+	)
+	(wire
+		(pts
+			(xy 127.381 100.965) (xy 124.841 100.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14ee8583-9367-4a4d-a3e1-c46994af77a4")
+	)
+	(wire
+		(pts
+			(xy 103.378 80.137) (xy 103.378 78.867)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "188958df-6661-4573-aa0c-43ff93b1d9f8")
+	)
+	(wire
+		(pts
+			(xy 223.901 70.993) (xy 226.949 70.993)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e46b2b6-ea54-4395-b1d6-d1fd95494c84")
+	)
+	(wire
+		(pts
+			(xy 100.838 98.425) (xy 103.378 98.425)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21b0163c-cd77-4bb9-bfa8-92a766193c04")
+	)
+	(wire
+		(pts
+			(xy 191.008 91.948) (xy 187.96 91.948)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "298a3480-32b2-4667-847b-77f05b03abb9")
+	)
+	(wire
+		(pts
+			(xy 223.901 91.948) (xy 226.949 91.948)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e199b68-eb63-48a9-82c6-33b3d4b7b84d")
+	)
+	(wire
+		(pts
+			(xy 78.105 80.137) (xy 78.105 78.867)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "306ca683-3887-4351-908d-b66707836688")
+	)
+	(wire
+		(pts
+			(xy 223.901 94.488) (xy 226.949 94.488)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e91c6d0-1bc2-4844-9e37-c2c2333ca02b")
+	)
+	(wire
+		(pts
+			(xy 124.841 98.425) (xy 127.381 98.425)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3efa351d-d081-4b95-84a3-1435a90b44d6")
+	)
+	(wire
+		(pts
+			(xy 127.381 80.137) (xy 127.381 78.867)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4415ad92-3c94-402b-85a8-5412c26f415f")
+	)
+	(wire
+		(pts
+			(xy 187.96 81.153) (xy 191.008 81.153)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c64ba36-3103-49bc-99af-66b660113083")
+	)
+	(wire
+		(pts
+			(xy 175.387 70.993) (xy 175.387 81.153)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5184bf5f-218e-4601-b274-f58725025023")
+	)
+	(wire
+		(pts
+			(xy 103.378 102.235) (xy 103.378 100.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "657500a8-4b80-44ac-8560-087996312682")
+	)
+	(wire
+		(pts
+			(xy 75.565 98.425) (xy 78.105 98.425)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83b9416a-1e0c-405a-87b6-5ad8810d10bf")
+	)
+	(wire
+		(pts
+			(xy 103.378 100.965) (xy 100.838 100.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91cb2596-a6b6-46fd-989d-343f9e9bc6c7")
+	)
+	(wire
+		(pts
+			(xy 78.105 102.235) (xy 78.105 100.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bf19c50-b05b-4095-a14f-d84dbd6c72e0")
+	)
+	(wire
+		(pts
+			(xy 187.96 76.073) (xy 191.008 76.073)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d6bf55d-89a6-4d9a-9720-a5f3ddb6ee5e")
+	)
+	(wire
+		(pts
+			(xy 124.841 76.327) (xy 127.381 76.327)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1f4e306-af4f-4e60-81ba-77da0fe2e5e9")
+	)
+	(wire
+		(pts
+			(xy 191.008 68.453) (xy 175.387 68.453)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a22db77d-19e0-4a44-b6bb-c166d69092a8")
+	)
+	(wire
+		(pts
+			(xy 75.565 76.327) (xy 78.105 76.327)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba5174c9-5e17-4edb-8d42-ecc0e9e30f02")
+	)
+	(wire
+		(pts
+			(xy 101.854 137.414) (xy 101.854 141.224)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c28d592b-2d17-4c7e-bd45-dee3c5630ae6")
+	)
+	(wire
+		(pts
+			(xy 191.008 70.993) (xy 175.387 70.993)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbb914b7-aca1-4794-bc60-1f4165695be7")
+	)
+	(wire
+		(pts
+			(xy 187.96 73.533) (xy 191.008 73.533)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd75242b-a918-41a2-a2dd-5b7ff88f09b7")
+	)
+	(wire
+		(pts
+			(xy 101.854 133.604) (xy 101.854 137.414)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cda81187-ab8e-4ac9-b601-6f10d6d4fe33")
+	)
+	(wire
+		(pts
+			(xy 175.387 67.183) (xy 175.387 68.453)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d58bb9d3-8225-4494-9fe4-e1cf763e9c7b")
+	)
+	(wire
+		(pts
+			(xy 103.378 78.867) (xy 100.838 78.867)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc91f05c-bbb8-42a3-abb0-90cc951bb2ce")
+	)
+	(wire
+		(pts
+			(xy 101.854 145.034) (xy 101.854 147.574)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de6de5bb-7bd9-4339-b003-5dbc4e101412")
+	)
+	(wire
+		(pts
+			(xy 78.105 100.965) (xy 75.565 100.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df4046ff-5f9a-45a9-9756-c1d62f1309de")
+	)
+	(wire
+		(pts
+			(xy 223.901 68.453) (xy 226.949 68.453)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f10dc551-5393-4991-accc-8abb96bea887")
+	)
+	(wire
+		(pts
+			(xy 101.854 141.224) (xy 101.854 145.034)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f964e492-9f2b-4c99-8a37-7b0b7f2b3ed2")
+	)
+	(wire
+		(pts
+			(xy 127.381 78.867) (xy 124.841 78.867)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc06256c-4df2-4625-83d8-661ac29a6ae2")
+	)
+	(text "Solar Panel Connectors"
+		(exclude_from_sim no)
+		(at 64.516 61.468 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "83046641-53d3-4f82-9f0c-0957a8c19919")
+	)
+	(text "Mounting Holes"
+		(exclude_from_sim no)
+		(at 86.614 128.524 0)
+		(effects
+			(font
+				(size 2.159 2.159)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a0d3deb-0502-490c-bc57-fbd7771f9911")
+	)
+	(hierarchical_label "SPI0_CE1"
+		(shape input)
+		(at 187.96 81.153 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "02aac0c2-6f04-4ffd-8d2c-afc7bc675337")
+	)
+	(hierarchical_label "VSOLAR"
+		(shape output)
+		(at 78.105 76.327 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "15e8bf31-13eb-4b5e-b301-75903a23df16")
+	)
+	(hierarchical_label "SDA"
+		(shape input)
+		(at 223.901 70.993 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3b018ed5-8b9d-4b68-8e75-b3b5da6deab3")
+	)
+	(hierarchical_label "SPI0_MISO"
+		(shape output)
+		(at 187.96 76.073 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "48934615-be22-4706-87f0-def54dc823ad")
+	)
+	(hierarchical_label "VSOLAR"
+		(shape output)
+		(at 127.381 76.327 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "537c6ff9-9bae-4075-b1e7-76833dbb1f4b")
+	)
+	(hierarchical_label "SPI0_SCLK"
+		(shape input)
+		(at 187.96 78.613 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "60d5e412-92db-4ad5-beed-81840bdfbbe5")
+	)
+	(hierarchical_label "TX3"
+		(shape input)
+		(at 223.901 94.488 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6a3a7414-98fc-4437-8e76-d3e504fd46cf")
+	)
+	(hierarchical_label "SPI0_MOSI"
+		(shape input)
+		(at 187.96 73.533 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8752c02d-e61d-4b3b-ab09-75bdf698d737")
+	)
+	(hierarchical_label "VSOLAR"
+		(shape output)
+		(at 78.105 98.425 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a16da81f-8c08-4125-b84b-b8b392fd1f4e")
+	)
+	(hierarchical_label "+3.3V"
+		(shape input)
+		(at 175.387 67.183 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bb0e4044-ea22-4c12-b522-09254907d0ba")
+	)
+	(hierarchical_label "+3.3V"
+		(shape input)
+		(at 187.96 91.948 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c1e04feb-9be6-4c0f-9746-4542b4b40370")
+	)
+	(hierarchical_label "VSOLAR"
+		(shape output)
+		(at 127.381 98.425 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c362313b-033a-48c1-bc48-945fcdc94f72")
+	)
+	(hierarchical_label "RX3"
+		(shape output)
+		(at 223.901 91.948 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c44fb1a7-1979-4dc9-aac2-f4067c69bc41")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 223.901 68.453 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "df974a24-7dbb-4b34-98bb-9ce4f77e62a4")
+	)
+	(hierarchical_label "VSOLAR"
+		(shape output)
+		(at 103.378 98.425 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e56c0032-2136-4148-a0be-03c22e647506")
+	)
+	(hierarchical_label "VSOLAR"
+		(shape output)
+		(at 103.378 76.327 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ebaddaac-7558-4215-8aa5-3d36f0011288")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 196.088 73.533 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d731245-52c2-4f7d-8aca-921155ee16cb")
+		(property "Reference" "J14"
+			(at 198.755 73.533 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 198.755 76.073 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.088 73.533 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.088 73.533 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.088 73.533 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15fe545e-8f2c-4a51-90ab-0124a147c6fb")
+		)
+		(pin "2"
+			(uuid "f8aa6172-b15d-49a6-a68a-2ee4fb56c194")
+		)
+		(pin "4"
+			(uuid "b3226167-d315-48dc-809d-aeee78f50aa8")
+		)
+		(pin "5"
+			(uuid "b2c5c3b4-a70b-4d67-b9fc-dc161735d4aa")
+		)
+		(pin "3"
+			(uuid "b40798e2-3879-4f81-9d3a-6d70a21237c7")
+		)
+		(pin "6"
+			(uuid "b70ffd09-53d0-439c-8177-f6461ab1454a")
+		)
+		(instances
+			(project "PiCubed"
+				(path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 103.378 80.137 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14f32354-05c9-4731-b064-b5be353ca5df")
+		(property "Reference" "#PWR0124"
+			(at 103.378 86.487 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 103.378 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 103.378 80.137 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 103.378 80.137 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 103.378 80.137 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d67dc8ea-c376-40ee-b7d4-0fddc8257108")
+		)
+		(instances
+			(project "PiCubed"
+				(path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
+					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127.381 80.137 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "380cbb9b-3587-4ac2-93f1-3f92d19a682c")
+		(property "Reference" "#PWR0126"
+			(at 127.381 86.487 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127.381 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127.381 80.137 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127.381 80.137 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127.381 80.137 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4458c1e0-fb13-452a-96bc-dd34bf2c9025")
+		)
+		(instances
+			(project "PiCubed"
+				(path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
+					(reference "#PWR0126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mainboard:M03POLAR_LOCK")
+		(at 67.945 98.425 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a773895-ba1b-4339-bfb0-54c725b98cf8")
+		(property "Reference" "JP2"
+			(at 65.405 92.583 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 65.405 106.045 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "mainboard:MOLEX-1X3_LOCK"
+			(at 67.945 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/276/022232037_sd-589157.pdf"
+			(at 67.945 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-pin Vertical Header - 0.1in (2.54mm) Locking - Molex PN: 22-23-2037"
+			(at 67.945 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNI" "DNI"
+			(at 67.437 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Flight" "22-23-2037"
+			(at 65.405 90.043 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 67.945 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "22-23-2037"
+			(at 65.405 90.043 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proto" "22-23-2037"
+			(at 65.405 90.043 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0f50ddb-7024-43d7-8f0f-e4a8d3ed99d0")
+		)
+		(pin "2"
+			(uuid "cd4fa484-8bf4-46d6-a338-163c0c2f980e")
+		)
+		(pin "3"
+			(uuid "6e7dcec1-ca87-4fa8-8ab1-df980134c170")
+		)
+		(instances
+			(project "PiCubed"
+				(path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 175.387 81.153 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46c918f5-ef97-48d5-9245-d2dba444dc3a")
+		(property "Reference" "#PWR0133"
+			(at 175.387 87.503 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.387 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.387 81.153 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.387 81.153 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.387 81.153 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c79a78ed-abd0-4e2f-a313-622e84902161")
+		)
+		(instances
+			(project "PiCubed"
+				(path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
+					(reference "#PWR0133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 99.314 137.414 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74f85282-a2a7-4bfd-acf0-b8633a036429")
+		(property "Reference" "H2"
+			(at 92.964 137.414 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 99.2378 133.7056 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 99.314 137.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.314 137.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.314 137.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNI" "DNI"
+			(at 99.314 137.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e864bacb-bfd1-4e59-b396-1d7e7601f7dc")
+		)
+		(instances
+			(project "PiCubed"
+				(path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 78.105 80.137 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76adb2ae-8f53-41af-8ccf-f7017fa663b1")
+		(property "Reference" "#PWR0122"
+			(at 78.105 86.487 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.105 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.105 80.137 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.105 80.137 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.105 80.137 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a4a931c-3c70-47ff-b565-8193562f8dd7")
+		)
+		(instances
+			(project "PiCubed"
+				(path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
+					(reference "#PWR0122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mainboard:M03POLAR_LOCK")
+		(at 93.218 98.425 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a0f2456-4926-4381-ae58-b93ad68b7ea8")
+		(property "Reference" "JP4"
+			(at 90.678 92.583 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 90.678 106.045 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "mainboard:MOLEX-1X3_LOCK"
+			(at 93.218 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/276/022232037_sd-589157.pdf"
+			(at 93.218 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-pin Vertical Header - 0.1in (2.54mm) Locking - Molex PN: 22-23-2037"
+			(at 93.218 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNI" "DNI"
+			(at 92.71 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Flight" "22-23-2037"
+			(at 90.678 90.043 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 93.218 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "22-23-2037"
+			(at 90.678 90.043 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proto" "22-23-2037"
+			(at 90.678 90.043 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8307c7c-74c2-4594-89fb-d464091ee8e3")
+		)
+		(pin "2"
+			(uuid "90112b27-5f76-4524-8801-25d11e197451")
+		)
+		(pin "3"
+			(uuid "182b66ed-21fe-4085-8ad7-dbbe39503d99")
+		)
+		(instances
+			(project "PiCubed"
+				(path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
+					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 232.029 70.993 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84db51cb-4212-4651-b9bd-e35ef5e4ce13")
+		(property "Reference" "J15"
+			(at 234.569 70.993 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 234.569 73.533 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.029 70.993 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.029 70.993 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.029 70.993 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "572886f3-09b5-41f1-b62a-2cf812420366")
+		)
+		(pin "2"
+			(uuid "ae1bf447-1673-4b98-b854-8964017daec6")
+		)
+		(pin "1"
+			(uuid "3c2083fa-a563-439d-81b3-38b01826b90a")
+		)
+		(pin "3"
+			(uuid "8398abac-2d89-49c0-9408-5b40ffc3c78b")
+		)
+		(instances
+			(project "PiCubed"
+				(path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127.381 102.235 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93c8f230-46c0-4bc7-ab98-6b3f6fa082b2")
+		(property "Reference" "#PWR0127"
+			(at 127.381 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127.381 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127.381 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127.381 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127.381 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b50dc1d5-7fce-4c75-bd4a-a3de7948f70f")
+		)
+		(instances
+			(project "PiCubed"
+				(path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 103.378 102.235 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "977ca20a-9765-48c5-9e00-218f71fc2eb8")
+		(property "Reference" "#PWR0125"
+			(at 103.378 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 103.378 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 103.378 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 103.378 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 103.378 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63d21cc3-5943-4db8-9bc9-3ed632985915")
+		)
+		(instances
+			(project "PiCubed"
+				(path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 196.088 97.028 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5fdea62-86a4-4090-8758-1deb6aa60525")
+		(property "Reference" "J16"
+			(at 198.755 97.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 198.755 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.088 97.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.088 97.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.088 97.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fcd1223-5d08-4774-a33b-f32f0b09c1d6")
+		)
+		(pin "2"
+			(uuid "6e3b9fb7-1b29-4533-b8ac-9a1246f61fd5")
+		)
+		(pin "4"
+			(uuid "b2d85c92-8214-499d-9268-88eb5961c153")
+		)
+		(pin "5"
+			(uuid "cc70ada1-c352-4bc9-a76f-103cfd4b2101")
+		)
+		(pin "3"
+			(uuid "845cb893-e57d-42bf-aa5d-c82a5d197bf9")
+		)
+		(pin "6"
+			(uuid "ed58231d-0cd2-4d12-b46e-d65050b7fc61")
+		)
+		(instances
+			(project "PiCubed"
+				(path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 99.314 145.034 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b089cdf8-8b41-460d-9bbb-792a55175ad9")
+		(property "Reference" "H4"
+			(at 92.964 145.034 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 99.2378 141.3256 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 99.314 145.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.314 145.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.314 145.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNI" "DNI"
+			(at 99.314 145.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a714f14a-740c-48d5-b277-8ab5bc207592")
+		)
+		(instances
+			(project "PiCubed"
+				(path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mainboard:M03POLAR_LOCK")
+		(at 93.218 76.327 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8694180-3f5e-4d10-a86c-8ae21463cbe9")
+		(property "Reference" "JP3"
+			(at 90.678 70.485 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 90.678 83.947 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "mainboard:MOLEX-1X3_LOCK"
+			(at 93.218 76.327 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/276/022232037_sd-589157.pdf"
+			(at 93.218 76.327 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-pin Vertical Header - 0.1in (2.54mm) Locking - Molex PN: 22-23-2037"
+			(at 93.218 76.327 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNI" "DNI"
+			(at 92.71 76.327 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Flight" "22-23-2037"
+			(at 90.678 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 93.218 76.327 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "22-23-2037"
+			(at 90.678 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proto" "22-23-2037"
+			(at 90.678 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9da4acb-866e-43f9-b8ba-e686cdb2a7ff")
+		)
+		(pin "3"
+			(uuid "e812d986-f27a-4bde-b323-7778829d043d")
+		)
+		(pin "2"
+			(uuid "6b5760e6-5d30-4e16-a400-73d748d1709f")
+		)
+		(instances
+			(project "PiCubed"
+				(path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 99.314 133.604 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8924f89-ca87-4e5e-a918-f54e47903018")
+		(property "Reference" "H1"
+			(at 92.964 133.604 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 99.2378 129.8956 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 99.314 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.314 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.314 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNI" "DNI"
+			(at 99.314 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "030739c4-6787-4f18-98bd-ec2f47462163")
+		)
+		(instances
+			(project "PiCubed"
+				(path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mainboard:M03POLAR_LOCK")
+		(at 67.945 76.327 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c34b1df3-0f73-4f68-a345-5e90fb19de6f")
+		(property "Reference" "JP1"
+			(at 65.405 70.485 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 65.405 83.947 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "mainboard:MOLEX-1X3_LOCK"
+			(at 67.945 76.327 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/276/022232037_sd-589157.pdf"
+			(at 67.945 76.327 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-pin Vertical Header - 0.1in (2.54mm) Locking - Molex PN: 22-23-2037"
+			(at 67.945 76.327 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNI" "DNI"
+			(at 67.437 76.327 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Flight" "22-23-2037"
+			(at 65.405 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 67.945 76.327 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "22-23-2037"
+			(at 65.405 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proto" "22-23-2037"
+			(at 65.405 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82321411-35a4-4fb0-bc9f-6d8eb7e81972")
+		)
+		(pin "3"
+			(uuid "452f87f9-3c6c-4a80-962d-d9f248e9896e")
+		)
+		(pin "2"
+			(uuid "eef23b36-b990-4123-ab88-740b8abb4e15")
+		)
+		(instances
+			(project "PiCubed"
+				(path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 78.105 102.235 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c50ad0f6-31b1-4d8c-8d95-0898fdef1a25")
+		(property "Reference" "#PWR0123"
+			(at 78.105 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.105 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.105 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.105 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.105 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc6eff4e-8c59-41c9-a53e-3e074fe39dfd")
+		)
+		(instances
+			(project "PiCubed"
+				(path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
+					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 99.314 141.224 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5c6accb-fd5c-45c5-8e8a-f04d1751179d")
+		(property "Reference" "H3"
+			(at 92.964 141.224 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 99.2378 137.5156 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 99.314 141.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.314 141.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.314 141.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNI" "DNI"
+			(at 99.314 141.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c19538c-c466-4e70-b3a0-ca9dd079251e")
+		)
+		(instances
+			(project "PiCubed"
+				(path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mainboard:M03POLAR_LOCK")
+		(at 117.221 98.425 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7b551f2-d8e2-42a6-940a-e7c73b851d84")
+		(property "Reference" "JP6"
+			(at 114.681 92.583 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 114.681 106.045 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "mainboard:MOLEX-1X3_LOCK"
+			(at 117.221 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/276/022232037_sd-589157.pdf"
+			(at 117.221 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-pin Vertical Header - 0.1in (2.54mm) Locking - Molex PN: 22-23-2037"
+			(at 117.221 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNI" "DNI"
+			(at 116.713 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Flight" "22-23-2037"
+			(at 114.681 90.043 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 117.221 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "22-23-2037"
+			(at 114.681 90.043 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proto" "22-23-2037"
+			(at 114.681 90.043 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e9fc722-32de-4797-8c23-20b6709c2c46")
+		)
+		(pin "2"
+			(uuid "e8d3df92-fd39-4bd1-829f-c40c8205d07b")
+		)
+		(pin "3"
+			(uuid "295b747f-fd4a-477c-8e98-b8460d6dd368")
+		)
+		(instances
+			(project "PiCubed"
+				(path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
+					(reference "JP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 232.029 94.488 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3c34eb7-6011-412b-bea3-993ff145e207")
+		(property "Reference" "J17"
+			(at 234.569 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 234.569 97.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.029 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.029 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.029 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6bdf6a3e-d296-48f7-97c2-08f9b51853c0")
+		)
+		(pin "2"
+			(uuid "88f19504-92f0-47c7-99ab-1b54a4a569c6")
+		)
+		(pin "1"
+			(uuid "948aa36b-3d93-41cb-8871-6cf697ee85e8")
+		)
+		(pin "3"
+			(uuid "a470b9e3-189e-42d3-a40c-a87cb0496c1b")
+		)
+		(instances
+			(project "PiCubed"
+				(path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mainboard:M03POLAR_LOCK")
+		(at 117.221 76.327 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d792dbe0-1a7e-4b75-a71a-423dc8e5184d")
+		(property "Reference" "JP5"
+			(at 114.681 70.485 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 114.681 83.947 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "mainboard:MOLEX-1X3_LOCK"
+			(at 117.221 76.327 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/276/022232037_sd-589157.pdf"
+			(at 117.221 76.327 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-pin Vertical Header - 0.1in (2.54mm) Locking - Molex PN: 22-23-2037"
+			(at 117.221 76.327 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNI" "DNI"
+			(at 116.713 76.327 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Flight" "22-23-2037"
+			(at 114.681 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 117.221 76.327 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "22-23-2037"
+			(at 114.681 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proto" "22-23-2037"
+			(at 114.681 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73246ad8-d55e-42fb-ab00-32a659b0616d")
+		)
+		(pin "3"
+			(uuid "43f21632-c5e7-43a5-a293-daa9d7adb56d")
+		)
+		(pin "2"
+			(uuid "e8222c1b-8159-4736-8562-dc16e33d134b")
+		)
+		(instances
+			(project "PiCubed"
+				(path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
+					(reference "JP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.854 147.574 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dfd4c7af-6f0a-4e85-8a97-2e2fd146531f")
+		(property "Reference" "#PWR0121"
+			(at 101.854 153.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.854 151.257 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.854 147.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.854 147.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.854 147.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f417cfb-ecc7-4c36-bef1-303ce4964698")
+		)
+		(instances
+			(project "PiCubed"
+				(path "/4b37429c-4c68-4ad5-8283-409cc98cb270/69012845-e1da-45c8-aa12-77e37170090d"
+					(reference "#PWR0121")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
