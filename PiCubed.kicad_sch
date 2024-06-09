@@ -335,7 +335,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.621 154.94) (xy 154.94 154.94)
+			(xy 140.97 154.94) (xy 154.94 154.94)
 		)
 		(stroke
 			(width 0)
@@ -945,7 +945,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.621 152.4) (xy 154.94 152.4)
+			(xy 140.97 152.4) (xy 154.94 152.4)
 		)
 		(stroke
 			(width 0)
@@ -965,7 +965,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.621 149.86) (xy 154.94 149.86)
+			(xy 140.97 149.86) (xy 154.94 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1889,8 +1889,8 @@
 		)
 	)
 	(sheet
-		(at 96.52 143.51)
-		(size 46.101 16.383)
+		(at 95.25 142.24)
+		(size 45.72 17.653)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1900,7 +1900,7 @@
 		)
 		(uuid "699fe539-2209-4b43-99f0-7cfeb2bbab07")
 		(property "Sheetname" "Burn Wires"
-			(at 96.52 140.843 0)
+			(at 95.25 139.573 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1909,7 +1909,7 @@
 			)
 		)
 		(property "Sheetfile" "burnwires.kicad_sch"
-			(at 96.52 141.351 0)
+			(at 95.25 140.081 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1918,7 +1918,7 @@
 			)
 		)
 		(pin "BATT_P" input
-			(at 96.52 153.67 180)
+			(at 95.25 153.67 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1928,7 +1928,7 @@
 			(uuid "c02816ad-9d27-4610-8cac-bb925a0282fa")
 		)
 		(pin "RELAY_EN" input
-			(at 142.621 149.86 0)
+			(at 140.97 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1938,7 +1938,7 @@
 			(uuid "3f64329e-6a37-42e5-9f17-7bc2c5fdc45c")
 		)
 		(pin "BURN_PWM1" input
-			(at 142.621 154.94 0)
+			(at 140.97 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1948,7 +1948,7 @@
 			(uuid "9fea44ba-5d8f-4673-8846-21b719ecba4f")
 		)
 		(pin "BURN_PWM0" input
-			(at 142.621 152.4 0)
+			(at 140.97 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1958,7 +1958,7 @@
 			(uuid "8cea03e0-2d1b-4325-a52a-b2728899ce86")
 		)
 		(pin "VSOLAR" input
-			(at 96.52 149.86 180)
+			(at 95.25 149.86 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1976,8 +1976,8 @@
 		)
 	)
 	(sheet
-		(at 50.8 113.03)
-		(size 31.75 12.7)
+		(at 49.276 128.524)
+		(size 31.75 13.97)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1987,7 +1987,7 @@
 		)
 		(uuid "7408f80c-8d0b-4747-ae34-aef5396d419a")
 		(property "Sheetname" "Power"
-			(at 50.8 110.363 0)
+			(at 49.276 125.857 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1996,7 +1996,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 50.8 110.871 0)
+			(at 49.276 126.365 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2968,8 +2968,8 @@
 		)
 	)
 	(sheet
-		(at 51.816 136.525)
-		(size 31.877 12.065)
+		(at 50.8 105.41)
+		(size 31.75 13.97)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -2978,8 +2978,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "eaf5c952-2d54-4829-85e1-0549c08a6033")
-		(property "Sheetname" "Power2"
-			(at 51.562 133.604 0)
+		(property "Sheetname" "Power Regulation"
+			(at 50.546 102.489 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2987,8 +2987,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "power2.kicad_sch"
-			(at 51.562 134.112 0)
+		(property "Sheetfile" "PowerRegulation.kicad_sch"
+			(at 50.546 102.997 0)
 			(effects
 				(font
 					(size 1.27 1.27)
